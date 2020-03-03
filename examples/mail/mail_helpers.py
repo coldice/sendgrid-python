@@ -20,7 +20,7 @@ message = Mail(
     from_email=("sender@example.com", "Sender Name"),
     to_emails=To("recipient@example.com"))
 
-message.template_id = template
+message.template_id = template_id
 message.dynamic_template_data = data
 
 
